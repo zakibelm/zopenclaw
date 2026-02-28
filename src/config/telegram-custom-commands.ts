@@ -17,11 +17,14 @@ export function normalizeTelegramCommandName(value: string): string {
     return "";
   }
   const withoutSlash = trimmed.startsWith("/") ? trimmed.slice(1) : trimmed;
-  return withoutSlash.trim().toLowerCase();
+  // Telegram commands cannot contain hyphens, so we normalize them to underscores.
+  return withoutSlash.trim().toLowerCase().replace(/-/g, "_");
 }
 
 export function normalizeTelegramCommandDescription(value: string): string {
-  return value.trim();
+  // Telegram has a 256-character limit for command descriptions.
+  const trimmed = value.trim();
+  return trimmed.length > 256 ? trimmed.slice(0, 253) + "..." : trimmed;
 }
 
 export function resolveTelegramCustomCommands(params: {

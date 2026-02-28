@@ -1,0 +1,11 @@
+2026-02-23T14:43:59.004Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\zakib\.openclaw\canvas)
+2026-02-23T14:46:04.318Z [heartbeat] started
+2026-02-23T14:46:04.430Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-02-23T14:46:04.555Z [gateway] agent model: openrouter/google/gemini-3-flash-preview
+2026-02-23T14:46:04.626Z [gateway] listening on ws://127.0.0.1:18789 (PID 25472)
+2026-02-23T14:46:04.699Z [gateway] listening on ws://[::1]:18789
+2026-02-23T14:46:04.821Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-23.log
+2026-02-23T14:46:06.398Z [browser/service] Browser control service ready (profiles=2)
+2026-02-23T14:46:10.241Z [ws] Ôçä res Ô£ô health 880ms conn=72b36937ÔÇªdc3a id=8e1064f1ÔÇª14f0
+2026-02-23T14:46:10.358Z [telegram] [default] starting provider (@Zaki5_bot)
+2026-02-23T14:46:10.541Z [telegram] autoSelectFamily=true (default-node22)

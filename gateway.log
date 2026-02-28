@@ -1,0 +1,6 @@
+Multiple agents marked default=true; using the first entry as default.
+2026-02-22T07:56:13.283-05:00 Gateway failed to start: gateway already running (pid 17304); lock timeout after 5000ms
+If the gateway is supervised, stop it with: openclaw gateway stop
+2026-02-22T07:56:15.761-05:00 Port 18789 is already in use.
+2026-02-22T07:56:16.094-05:00 - pid 17304: "C:\Program Files\nodejs\node.exe" --disable-warning=ExperimentalWarning C:\Users\zakib\Downloads\Openclaw\openclaw.mjs gateway run --port 18789 (127.0.0.1:18789)
+2026-02-22T07:56:16.408-05:00 - Gateway already running locally. Stop it (openclaw gateway stop) or use a different port.

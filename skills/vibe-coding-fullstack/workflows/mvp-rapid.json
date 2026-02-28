@@ -1,0 +1,92 @@
+{
+  "name": "mvp-rapid",
+  "description": "Workflow MVP rapide - 1 à 2h. Next.js + SQLite + Vercel. Minimal testing.",
+  "estimatedTime": "1-2h",
+  "phases": [
+    {
+      "name": "discovery",
+      "duration": "10min",
+      "agent": "user",
+      "tasks": [
+        "Collecter besoins utilisateur",
+        "Définir scope MVP",
+        "Choisir nom projet"
+      ]
+    },
+    {
+      "name": "architecture",
+      "duration": "15min",
+      "agent": "agent-frontend-coder",
+      "tasks": [
+        "Générer structure Next.js",
+        "Définir routes/pages",
+        "Setup Tailwind + shadcn"
+      ],
+      "output": "architecture.json"
+    },
+    {
+      "name": "frontend",
+      "duration": "30min",
+      "agent": "agent-frontend-coder",
+      "tasks": [
+        "Créer composants UI",
+        "Implémenter pages",
+        "Style responsive"
+      ],
+      "parallel": false
+    },
+    {
+      "name": "backend",
+      "duration": "20min",
+      "agent": "agent-backend-coder",
+      "tasks": [
+        "API routes Next.js",
+        "SQLite schema (Prisma)",
+        "CRUD operations"
+      ]
+    },
+    {
+      "name": "integration",
+      "duration": "10min",
+      "agent": "agent-frontend-coder",
+      "tasks": [
+        "Connecter frontend ↔ backend",
+        "Test manuel basique"
+      ]
+    },
+    {
+      "name": "github",
+      "duration": "10min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "Init repo Git",
+        "Créer repo GitHub",
+        "Push initial",
+        "Setup .gitignore"
+      ]
+    },
+    {
+      "name": "deploy",
+      "duration": "10min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "Setup Vercel project",
+        "Config env vars",
+        "Deploy production",
+        "Vérifier health endpoint"
+      ]
+    }
+  ],
+  "skip": {
+    "tests": true,
+    "codeReview": true,
+    "staging": true
+  },
+  "stack": {
+    "frontend": "Next.js 14 + Tailwind + shadcn/ui",
+    "backend": "Next.js API Routes",
+    "database": "SQLite (Prisma)",
+    "auth": "NextAuth.js (optionnel)",
+    "deploy": "Vercel"
+  }
+}

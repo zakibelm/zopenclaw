@@ -1,0 +1,95 @@
+{
+  "name": "TCT - Extraction & Database Backend",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "tct-extract",
+        "options": {}
+      },
+      "id": "webhook-node",
+      "name": "Webhook Receiver",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "modelId": "openai/gpt-4o",
+        "messages": {
+          "values": [
+            {
+              "role": "system",
+              "content": "Tu es un extracteur de données logistiques expert. Extrais les données de l'image au format JSON strict."
+            },
+            {
+              "role": "user",
+              "content": "Extrais toutes les lignes du tableau 'Affectations des tournées' de cette image."
+            }
+          ]
+        },
+        "options": {
+          "temperature": 0.1
+        }
+      },
+      "id": "ai-node",
+      "name": "OpenRouter AI Extraction",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "schema": {
+          "__rl": true,
+          "mode": "list",
+          "value": "public"
+        },
+        "table": {
+          "__rl": true,
+          "mode": "list",
+          "value": "extractions"
+        },
+        "columns": {
+          "mappingMode": "defineAcrossElements",
+          "value": {
+            "user_dome": "={{$node[\"Webhook Receiver\"].json[\"body\"][\"user_dome\"]}}",
+            "section": "tct",
+            "content": "={{$json}}",
+            "status": "completed"
+          }
+        }
+      },
+      "id": "db-node",
+      "name": "Save to Neon/Supabase",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.4,
+      "position": [750, 300]
+    }
+  ],
+  "connections": {
+    "webhook-node": {
+      "main": [
+        [
+          {
+            "node": "ai-node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ai-node": {
+      "main": [
+        [
+          {
+            "node": "db-node",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  }
+}

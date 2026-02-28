@@ -6,7 +6,7 @@ import {
 import type { RuntimeEnv } from "../runtime.js";
 import { withTelegramApiErrorLogging } from "./api-logging.js";
 
-export const TELEGRAM_MAX_COMMANDS = 100;
+export const TELEGRAM_MAX_COMMANDS = 80;
 
 export type TelegramMenuCommand = {
   command: string;

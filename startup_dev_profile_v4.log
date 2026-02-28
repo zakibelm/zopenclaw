@@ -1,0 +1,16 @@
+2026-02-23T14:51:08.128Z [canvas] host mounted at http://127.0.0.1:19001/__openclaw__/canvas/ (root C:\Users\zakib\.openclaw-dev\canvas)
+2026-02-23T14:51:08.960Z [heartbeat] started
+2026-02-23T14:51:08.974Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-02-23T14:51:08.986Z [gateway] agent model: openrouter/google/gemini-3-flash-preview
+2026-02-23T14:51:08.991Z [gateway] listening on ws://127.0.0.1:19001 (PID 25328)
+2026-02-23T14:51:08.994Z [gateway] listening on ws://[::1]:19001
+2026-02-23T14:51:09.002Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-23.log
+2026-02-23T14:51:09.152Z [browser/service] Browser control service ready (profiles=2)
+2026-02-23T14:51:09.886Z [telegram] [default] starting provider (@Zaki5_bot)
+2026-02-23T14:51:09.901Z [telegram] autoSelectFamily=true (default-node22)
+2026-02-23T14:51:10.014Z [telegram] [zakcpa] starting provider (@Zakcpa_bot)
+2026-02-23T10:07:11.953-05:00 typing TTL reached (2m); stopping typing indicator
+2026-02-23T15:22:29.526Z [agent/embedded] embedded run timeout: runId=20a6751f-3cdb-411a-b315-e97e04e57e80 sessionId=b69cfe8d-d8a2-464e-b78e-5bc1bd5e7757 timeoutMs=600000
+2026-02-23T15:22:29.569Z [agent/embedded] Profile openrouter:default timed out (possible rate limit). Trying next account...
+2026-02-23T10:22:47.740-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T10:52:40.513-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'

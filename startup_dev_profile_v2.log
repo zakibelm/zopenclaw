@@ -1,0 +1,17 @@
+2026-02-23T14:49:26.305Z [canvas] host mounted at http://127.0.0.1:19001/__openclaw__/canvas/ (root C:\Users\zakib\.openclaw-dev\canvas)
+2026-02-23T14:49:28.987Z [heartbeat] started
+2026-02-23T14:49:28.996Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-02-23T14:49:29.004Z [gateway] agent model: openrouter/google/gemini-3-flash-preview
+2026-02-23T14:49:29.007Z [gateway] listening on ws://127.0.0.1:19001 (PID 24544)
+2026-02-23T14:49:29.009Z [gateway] listening on ws://[::1]:19001
+2026-02-23T14:49:29.014Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-23.log
+2026-02-23T14:49:29.112Z [browser/service] Browser control service ready (profiles=2)
+2026-02-23T14:49:29.739Z [telegram] [zakcpa] starting provider (@Zakcpa_bot)
+2026-02-23T14:49:29.769Z [telegram] autoSelectFamily=true (default-node22)
+2026-02-23T14:49:29.818Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-23T14:49:36.698Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-23T14:49:36.764Z [telegram] [default] starting provider (@Zaki5_bot)
+2026-02-23T14:49:36.882Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-23T14:49:37.355Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-23T14:49:38.155Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (400: Bad Request: BOT_COMMANDS_TOO_MUCH)
+2026-02-23T14:49:38.479Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (400: Bad Request: BOT_COMMANDS_TOO_MUCH)

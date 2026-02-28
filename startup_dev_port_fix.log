@@ -1,0 +1,34 @@
+2026-02-23T16:13:28.856Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\zakib\.openclaw-dev\canvas)
+2026-02-23T16:13:29.671Z [heartbeat] started
+2026-02-23T16:13:29.679Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-02-23T16:13:29.686Z [gateway] agent model: openrouter/google/gemini-3-flash-preview
+2026-02-23T16:13:29.689Z [gateway] listening on ws://127.0.0.1:18789 (PID 18072)
+2026-02-23T16:13:29.692Z [gateway] listening on ws://[::1]:18789
+2026-02-23T16:13:29.696Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-23.log
+2026-02-23T16:13:29.790Z [browser/service] Browser control service ready (profiles=2)
+2026-02-23T16:13:30.409Z [telegram] [zakcpa] starting provider (@Zakcpa_bot)
+2026-02-23T16:13:30.419Z [telegram] autoSelectFamily=true (default-node22)
+2026-02-23T16:13:30.549Z [telegram] [default] starting provider (@Zaki5_bot)
+2026-02-23T11:29:06.576-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T11:58:54.810-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T12:29:11.839-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T12:58:51.302-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T18:54:58.912Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-23T18:55:34.447Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-23T19:59:30.382Z [telegram] message failed: Network request for 'sendMessage' failed!
+2026-02-23T19:59:30.399Z [heartbeat] failed: Network request for 'sendMessage' failed!
+2026-02-23T15:58:39.336-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T16:15:08.938-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T16:18:30.221-05:00 typing TTL reached (2m); stopping typing indicator
+2026-02-23T16:18:47.883-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\Downloads\Openclaw\docs\skills.md'
+2026-02-23T16:20:47.879-05:00 typing TTL reached (2m); stopping typing indicator
+2026-02-23T16:28:54.262-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T22:52:06.429Z [telegram] network error: Network request for 'getUpdates' failed!; retrying in 2.36s.
+2026-02-24T00:17:58.786Z [telegram] network error: Network request for 'getUpdates' failed!; retrying in 2.44s.
+2026-02-23T19:18:26.892-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T19:48:31.181-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T20:18:24.032-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T20:48:27.590-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T21:18:20.916-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T21:48:28.173-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'
+2026-02-23T22:18:27.235-05:00 [tools] read failed: ENOENT: no such file or directory, access 'C:\Users\zakib\.openclaw\workspace-dev\HEARTBEAT.md'

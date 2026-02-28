@@ -1,0 +1,88 @@
+{
+  "name": "TCT - BACKEND FINAL",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "tct-extract",
+        "responseMode": "lastNode",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "e067f504-20b8-4c31-9a7c-bc7d55f0b5d5",
+      "name": "Webhook"
+    },
+    {
+      "parameters": {
+        "modelSelection": "manual",
+        "modelId": "anthropic/claude-3.5-sonnet",
+        "prompt": "Extrais les données TCT de l'image base64 fournie. Retourne un objet JSON avec 'headers' (les noms des colonnes) et 'rows' (un tableau de tableaux de chaînes).",
+        "options": {
+          "temperature": 0.1
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1,
+      "position": [
+        220,
+        0
+      ],
+      "id": "ai-agent-tct",
+      "name": "AI Expert TCT"
+    },
+    {
+      "parameters": {
+        "operation": "insert",
+        "table": "extractions_v2",
+        "columns": {
+          "mappingMode": "defineAcrossElements",
+          "value": {
+            "user_dome": "={{ $node.Webhook.json.body.user_dome }}",
+            "section": "tct",
+            "data": "={{ $json }}"
+          }
+        }
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.4,
+      "position": [
+        440,
+        0
+      ],
+      "id": "db-storage",
+      "name": "Postgres Storage"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "ai-agent-tct",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "ai-agent-tct": {
+      "main": [
+        [
+          {
+            "node": "db-storage",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

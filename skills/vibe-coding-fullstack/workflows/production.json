@@ -1,0 +1,171 @@
+{
+  "name": "production",
+  "description": "Workflow production-grade. Tests complets, code review, staging, monitoring.",
+  "estimatedTime": "4-8h",
+  "phases": [
+    {
+      "name": "discovery",
+      "duration": "30min",
+      "agent": "user",
+      "tasks": [
+        "Workshop besoins détaillés",
+        "User stories",
+        "Wireframes (optionnel)",
+        "Définition MVP vs v2"
+      ]
+    },
+    {
+      "name": "architecture",
+      "duration": "45min",
+      "agent": "agent-frontend-coder",
+      "tasks": [
+        "Architecture détaillée",
+        "Choix stack justifiés",
+        "Diagramme données",
+        "API contract (OpenAPI)",
+        "Security considerations"
+      ],
+      "output": "architecture.md + openapi.yaml"
+    },
+    {
+      "name": "database",
+      "duration": "30min",
+      "agent": "agent-database-coder",
+      "tasks": [
+        "Schema Prisma complet",
+        "Relations + indexes",
+        "Migrations",
+        "Seed data",
+        "Queries optimisées"
+      ]
+    },
+    {
+      "name": "backend",
+      "duration": "60min",
+      "agent": "agent-backend-coder",
+      "tasks": [
+        "API routes RESTful",
+        "Middleware auth",
+        "Validation Zod",
+        "Error handling",
+        "Rate limiting",
+        "Tests unitaires"
+      ]
+    },
+    {
+      "name": "frontend",
+      "duration": "90min",
+      "agent": "agent-frontend-coder",
+      "tasks": [
+        "Setup Next.js + Tailwind + shadcn",
+        "Layout + Navigation",
+        "Pages principales",
+        "Composants réutilisables",
+        "Hooks custom",
+        "Tests E2E (Playwright)"
+      ]
+    },
+    {
+      "name": "integration",
+      "duration": "30min",
+      "agent": "agent-frontend-coder",
+      "tasks": [
+        "Connecter API",
+        "Gestion état global",
+        "Error boundaries",
+        "Loading states",
+        "Test E2E complet"
+      ]
+    },
+    {
+      "name": "code-review",
+      "duration": "30min",
+      "agent": "agent-code-reviewer",
+      "tasks": [
+        "Review sécurité",
+        "Review performance",
+        "Review maintenabilité",
+        "Score global",
+        "Fix suggestions"
+      ],
+      "gate": "score >= 80"
+    },
+    {
+      "name": "fix-issues",
+      "duration": "30min",
+      "agent": "agent-frontend-coder",
+      "condition": "review.issues.critical > 0",
+      "tasks": [
+        "Fix issues critiques",
+        "Re-run review",
+        "Max 3 cycles"
+      ]
+    },
+    {
+      "name": "github-setup",
+      "duration": "20min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "Init repo Git",
+        "Créer repo GitHub",
+        "Setup .gitignore",
+        "Push initial",
+        "Setup branch protection"
+      ]
+    },
+    {
+      "name": "ci-cd",
+      "duration": "30min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "GitHub Actions: test + build",
+        "GitHub Actions: deploy staging",
+        "GitHub Actions: deploy prod (main)",
+        "Preview deployments PR"
+      ]
+    },
+    {
+      "name": "staging-deploy",
+      "duration": "15min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "Deploy branche develop",
+        "Run smoke tests",
+        "Vérifier health checks"
+      ]
+    },
+    {
+      "name": "production-deploy",
+      "duration": "15min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "Merge main → production",
+        "Deploy prod",
+        "Smoke tests",
+        "Monitoring alerts"
+      ]
+    },
+    {
+      "name": "documentation",
+      "duration": "20min",
+      "agent": "agent-devops-coder",
+      "tasks": [
+        "README.md complet",
+        "ARCHITECTURE.md",
+        "API documentation",
+        "Deployment guide",
+        "CONTRIBUTING.md"
+      ]
+    }
+  ],
+  "skip": {},
+  "stack": {
+    "frontend": "Next.js 14 + Tailwind + shadcn/ui",
+    "backend": "Next.js API Routes / Express",
+    "database": "PostgreSQL + Prisma",
+    "auth": "Clerk / NextAuth",
+    "deploy": "Vercel + Railway",
+    "testing": "Vitest + Playwright",
+    "ci": "GitHub Actions"
+  }
+}

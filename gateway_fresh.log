@@ -1,0 +1,1009 @@
+Multiple agents marked default=true; using the first entry as default.
+2026-02-22T07:58:01.323-05:00 Multiple agents marked default=true; using the first entry as default.
+2026-02-22T12:58:07.981Z [canvas] host mounted at http://127.0.0.1:18789/__openclaw__/canvas/ (root C:\Users\zakib\.openclaw\canvas)
+2026-02-22T13:00:15.434Z [heartbeat] started
+2026-02-22T13:00:15.677Z [health-monitor] started (interval: 300s, grace: 60s)
+2026-02-22T13:00:15.907Z [gateway] agent model: openrouter/google/gemini-3-flash-preview
+2026-02-22T13:00:16.009Z [gateway] listening on ws://127.0.0.1:18789 (PID 21996)
+2026-02-22T13:00:16.130Z [gateway] listening on ws://[::1]:18789
+2026-02-22T13:00:16.327Z [gateway] log file: \tmp\openclaw\openclaw-2026-02-22.log
+2026-02-22T13:00:18.419Z [browser/service] Browser control service ready (profiles=2)
+2026-02-22T13:00:21.224Z [telegram] [default] starting provider (@Zaki5_bot)
+2026-02-22T13:00:21.542Z [telegram] autoSelectFamily=true (default-node22)
+2026-02-22T13:00:21.953Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T13:00:43.689Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T13:00:44.270Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (400: Bad Request: BOT_COMMANDS_TOO_MUCH)
+2026-02-22T13:03:31.708Z [ws] closed before connect conn=74639231-60ab-4a25-b457-5747658df0a6 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-02-22T13:03:31.850Z [ws] closed before connect conn=e5e2c995-7c9b-4591-b9dd-35546208dfc4 remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-02-22T14:40:45.517Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T14:40:48.015Z [health-monitor] [telegram:zaki5] health-monitor: restarting (reason: stopped)
+2026-02-22T14:40:51.698Z [reload] config change detected; evaluating reload (agents.list, channels.telegram.enabled, channels.telegram.accounts)
+2026-02-22T14:40:52.009Z [gateway/channels] restarting telegram channel
+2026-02-22T14:40:54.453Z [telegram] [zaki5] starting provider (@Zaki5_bot)
+2026-02-22T14:40:54.806Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:40:55.813Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:40:56.261Z [telegram] [zakcpa] starting provider
+2026-02-22T14:40:56.738Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:40:57.966Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:40:59.952Z [reload] config hot reload applied (channels.telegram.enabled, channels.telegram.accounts)
+2026-02-22T14:41:00.355Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:00.463Z [telegram] [zakcpa] starting provider
+2026-02-22T14:41:00.777Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:41:01.734Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:41:01.921Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (400: Bad Request: BOT_COMMANDS_TOO_MUCH)
+2026-02-22T14:41:02.434Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:41:02.575Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T14:41:02.744Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:02.943Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:03.075Z [telegram] [default] starting provider (@Zaki5_bot)
+2026-02-22T14:41:03.251Z [telegram] [zaki5] starting provider (@Zaki5_bot)
+2026-02-22T14:41:03.617Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:41:04.590Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:41:05.039Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:41:06.932Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:41:07.441Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:10.370Z [telegram] [zakcpa] starting provider
+2026-02-22T14:41:10.651Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:41:11.413Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:41:11.520Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (400: Bad Request: BOT_COMMANDS_TOO_MUCH)
+2026-02-22T14:41:11.619Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (400: Bad Request: BOT_COMMANDS_TOO_MUCH)
+2026-02-22T14:41:11.733Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:11.840Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:41:11.942Z [telegram] [zakcpa] auto-restart attempt 2/10 in 10s
+2026-02-22T14:41:12.040Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:13.477Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 2.17s.
+2026-02-22T14:41:15.861Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 2.23s.
+2026-02-22T14:41:21.688Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 3.6s.
+2026-02-22T14:41:27.556Z [telegram] [zakcpa] starting provider
+2026-02-22T14:41:27.954Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:41:28.513Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:41:28.680Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:28.865Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:41:28.966Z [telegram] [zakcpa] auto-restart attempt 3/10 in 22s
+2026-02-22T14:41:29.051Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 4.37s.
+2026-02-22T14:41:29.250Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:41:34.300Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 7.83s.
+2026-02-22T14:41:43.145Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 7.75s.
+2026-02-22T14:44:09.250Z [telegram] [zakcpa] starting provider
+2026-02-22T14:44:09.332Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 13.64s.
+2026-02-22T14:44:09.557Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:44:10.071Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:44:10.243Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:44:10.318Z [telegram] [zakcpa] auto-restart attempt 4/10 in 44s
+2026-02-22T14:44:10.401Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:44:10.613Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:44:23.385Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 13.1s.
+2026-02-22T14:44:37.095Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 21.52s.
+2026-02-22T14:44:55.569Z [telegram] [zakcpa] starting provider
+2026-02-22T14:44:55.779Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:44:56.259Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:44:56.427Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:44:56.675Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:44:56.750Z [telegram] [zakcpa] auto-restart attempt 5/10 in 83s
+2026-02-22T14:44:56.956Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:44:58.846Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 25.51s.
+2026-02-22T14:48:11.183Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:48:11.406Z [telegram] [zakcpa] starting provider
+2026-02-22T14:48:11.887Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:48:13.199Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:48:13.628Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:48:13.825Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:48:14.036Z [telegram] [zakcpa] auto-restart attempt 6/10 in 162s
+2026-02-22T14:48:14.253Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:48:41.674Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:51:17.845Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:51:18.067Z [telegram] [zakcpa] starting provider
+2026-02-22T14:51:18.552Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:51:19.664Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:51:19.912Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:51:20.063Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T14:51:20.246Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:51:20.713Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:51:48.275Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:54:23.810Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T14:54:26.733Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:54:57.154Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:57:35.192Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:57:35.351Z [telegram] [zakcpa] starting provider
+2026-02-22T14:57:35.668Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:57:36.870Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:57:37.714Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:57:38.011Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T14:57:38.341Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:57:38.876Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:57:45.201Z [telegram] [zakcpa] starting provider
+2026-02-22T14:57:45.567Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:57:46.512Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:57:46.743Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:57:47.070Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:57:47.194Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T14:57:47.311Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:58:00.581Z [telegram] [zakcpa] starting provider
+2026-02-22T14:58:00.971Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:58:02.055Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:58:02.425Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:58:02.875Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:58:03.024Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:58:03.164Z [telegram] [zakcpa] auto-restart attempt 3/10 in 20s
+2026-02-22T14:58:05.413Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T14:58:26.287Z [telegram] [zakcpa] starting provider
+2026-02-22T14:58:26.638Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T14:58:27.510Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T14:58:27.717Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T14:58:28.016Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T14:58:28.152Z [telegram] [zakcpa] auto-restart attempt 4/10 in 44s
+2026-02-22T14:58:28.393Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:00:47.816Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:00:47.943Z [telegram] [zakcpa] starting provider
+2026-02-22T15:00:48.266Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:00:49.111Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:00:49.479Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:00:49.734Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:00:49.971Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:00:50.101Z [telegram] [zakcpa] auto-restart attempt 5/10 in 88s
+2026-02-22T15:01:18.227Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:03:56.167Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:03:56.348Z [telegram] [zakcpa] starting provider
+2026-02-22T15:03:56.986Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:03:57.921Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:03:58.133Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:03:58.261Z [telegram] [zakcpa] auto-restart attempt 6/10 in 169s
+2026-02-22T15:03:58.400Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:03:58.628Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:04:26.622Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:07:04.519Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T15:07:10.567Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:07:10.848Z [telegram] [zakcpa] starting provider
+2026-02-22T15:07:11.462Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:07:12.585Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:07:12.838Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:07:13.039Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:07:13.237Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T15:07:13.453Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:07:20.897Z [telegram] [zakcpa] starting provider
+2026-02-22T15:07:21.297Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:07:22.379Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:07:22.659Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:07:23.243Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:07:23.492Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:07:23.726Z [telegram] [zakcpa] auto-restart attempt 2/10 in 10s
+2026-02-22T15:07:36.857Z [telegram] [zakcpa] starting provider
+2026-02-22T15:07:37.179Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:07:38.116Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:07:38.487Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:07:39.108Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:07:39.446Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:07:39.697Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T15:07:40.846Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:08:04.388Z [telegram] [zakcpa] starting provider
+2026-02-22T15:08:04.682Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:08:05.459Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:08:05.681Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:08:05.986Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:08:06.109Z [telegram] [zakcpa] auto-restart attempt 4/10 in 42s
+2026-02-22T15:08:06.228Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:10:16.040Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:10:16.466Z [telegram] [zakcpa] starting provider
+2026-02-22T15:10:16.835Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:10:17.797Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:10:18.176Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:10:18.362Z [telegram] [zakcpa] auto-restart attempt 5/10 in 82s
+2026-02-22T15:10:18.511Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:10:18.754Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:10:46.251Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:13:28.508Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:13:30.364Z [telegram] [zakcpa] starting provider
+2026-02-22T15:13:30.663Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:13:31.443Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:13:31.649Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:13:31.777Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:13:31.927Z [telegram] [zakcpa] auto-restart attempt 6/10 in 170s
+2026-02-22T15:13:32.359Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:13:58.921Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:16:35.850Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:16:35.962Z [telegram] [zakcpa] starting provider
+2026-02-22T15:16:36.254Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:16:37.039Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:16:37.366Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:16:37.487Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:16:37.653Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T15:16:37.774Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:17:06.233Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:19:42.563Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T15:19:43.025Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:20:13.438Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:22:50.600Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:22:50.731Z [telegram] [zakcpa] starting provider
+2026-02-22T15:22:51.058Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:22:51.974Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:22:52.314Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:22:52.531Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:22:52.855Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:22:52.967Z [telegram] [zakcpa] auto-restart attempt 8/10 in 300s
+2026-02-22T15:23:21.005Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:25:58.548Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T15:25:59.054Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:26:29.467Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:29:06.870Z [telegram] [zakcpa] starting provider
+2026-02-22T15:29:06.988Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:29:07.266Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:29:08.015Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:29:08.457Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:29:08.579Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:29:08.713Z [telegram] [zakcpa] auto-restart attempt 9/10 in 300s
+2026-02-22T15:29:08.844Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:29:37.370Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:32:14.771Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T15:32:15.202Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:32:45.636Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:35:23.282Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:35:23.399Z [telegram] [zakcpa] starting provider
+2026-02-22T15:35:23.678Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:35:24.508Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:35:24.975Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:35:25.116Z [telegram] [zakcpa] auto-restart attempt 10/10 in 300s
+2026-02-22T15:35:25.328Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:35:25.682Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:35:53.676Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:38:30.969Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T15:38:31.425Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:39:01.844Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:41:39.802Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:41:39.954Z [telegram] [zakcpa] starting provider
+2026-02-22T15:41:40.514Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:41:41.340Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:41:41.751Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:41:42.000Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:41:42.289Z [telegram] [zakcpa] giving up after 10 restart attempts
+2026-02-22T15:41:42.598Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:42:10.187Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:44:47.198Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: gave-up)
+2026-02-22T15:44:49.670Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:44:51.356Z [telegram] [zakcpa] starting provider
+2026-02-22T15:44:51.641Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:44:52.393Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:44:52.605Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:44:52.828Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:44:52.945Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:44:53.070Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T15:45:01.301Z [telegram] [zakcpa] starting provider
+2026-02-22T15:45:01.630Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:45:02.387Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:45:02.618Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:45:02.931Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:45:03.045Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T15:45:03.276Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:45:16.808Z [telegram] [zakcpa] starting provider
+2026-02-22T15:45:17.122Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:45:17.867Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:45:18.085Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:45:18.395Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:45:18.528Z [telegram] [zakcpa] auto-restart attempt 3/10 in 20s
+2026-02-22T15:45:18.738Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:45:19.876Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:45:41.456Z [telegram] [zakcpa] starting provider
+2026-02-22T15:45:41.862Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:45:43.288Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:45:43.639Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:45:44.173Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:45:44.467Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:45:44.618Z [telegram] [zakcpa] auto-restart attempt 4/10 in 41s
+2026-02-22T15:47:58.923Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:47:59.076Z [telegram] [zakcpa] starting provider
+2026-02-22T15:47:59.424Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:48:00.347Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:48:00.732Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:48:00.955Z [telegram] [zakcpa] auto-restart attempt 5/10 in 83s
+2026-02-22T15:48:01.155Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:48:01.377Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:48:29.323Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:51:08.932Z [telegram] [zakcpa] starting provider
+2026-02-22T15:51:09.057Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:51:09.439Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:51:10.209Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:51:10.614Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:51:10.751Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:51:10.869Z [telegram] [zakcpa] auto-restart attempt 6/10 in 165s
+2026-02-22T15:51:10.993Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:51:39.464Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:54:17.116Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:54:17.253Z [telegram] [zakcpa] starting provider
+2026-02-22T15:54:17.644Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T15:54:18.454Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T15:54:18.797Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T15:54:18.918Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T15:54:19.038Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:54:19.252Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T15:54:47.513Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:57:23.328Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T15:57:25.653Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T15:57:56.105Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:00:39.898Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:00:40.158Z [telegram] [zakcpa] starting provider
+2026-02-22T16:00:40.866Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:00:42.095Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:00:42.434Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:00:42.671Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:00:42.917Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T16:00:43.203Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:00:55.828Z [telegram] [zakcpa] starting provider
+2026-02-22T16:00:56.452Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:01:27.107Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:01:27.627Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:01:28.347Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:01:28.634Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:01:28.909Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:01:29.163Z [telegram] [zakcpa] auto-restart attempt 2/10 in 10s
+2026-02-22T16:03:53.308Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:03:54.199Z [telegram] [zakcpa] starting provider
+2026-02-22T16:03:54.576Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:03:55.450Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:03:55.704Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:03:55.910Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T16:03:56.074Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:03:56.352Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:04:19.948Z [telegram] [zakcpa] starting provider
+2026-02-22T16:04:20.326Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:04:21.141Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:04:21.550Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:04:22.034Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:04:22.218Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:04:22.362Z [telegram] [zakcpa] auto-restart attempt 4/10 in 42s
+2026-02-22T16:04:23.576Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:07:03.014Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:07:03.210Z [telegram] [zakcpa] starting provider
+2026-02-22T16:07:03.639Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:07:04.403Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:07:04.741Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:07:04.953Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:07:05.312Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:07:05.430Z [telegram] [zakcpa] auto-restart attempt 5/10 in 88s
+2026-02-22T16:07:33.396Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:10:13.215Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:10:13.353Z [telegram] [zakcpa] starting provider
+2026-02-22T16:10:13.662Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:10:15.110Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:10:15.551Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:10:15.764Z [telegram] [zakcpa] auto-restart attempt 6/10 in 169s
+2026-02-22T16:10:16.027Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:10:16.345Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:10:43.656Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:13:22.072Z [telegram] [zakcpa] starting provider
+2026-02-22T16:13:22.199Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:13:22.508Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:13:23.237Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:13:23.563Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:13:23.691Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:13:23.815Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T16:13:23.937Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:13:52.602Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:16:27.420Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T16:16:30.327Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:17:00.840Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:19:38.010Z [telegram] [zakcpa] starting provider
+2026-02-22T16:19:38.421Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:19:39.554Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:19:39.860Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:19:40.060Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:19:40.205Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:19:40.332Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T16:19:40.471Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:19:48.991Z [telegram] [zakcpa] starting provider
+2026-02-22T16:19:49.282Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:19:49.959Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:19:50.206Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:19:50.523Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:19:50.650Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T16:19:50.767Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:20:03.750Z [telegram] [zakcpa] starting provider
+2026-02-22T16:20:04.068Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:20:04.819Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:20:05.134Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:20:05.571Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:20:05.687Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:20:05.812Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T16:20:10.283Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:20:29.668Z [telegram] [zakcpa] starting provider
+2026-02-22T16:20:30.080Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:20:31.179Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:20:31.423Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:20:31.744Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:20:31.866Z [telegram] [zakcpa] auto-restart attempt 4/10 in 42s
+2026-02-22T16:20:32.093Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:22:50.394Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:22:51.426Z [telegram] [zakcpa] starting provider
+2026-02-22T16:22:51.722Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:22:52.388Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:22:52.696Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:22:52.820Z [telegram] [zakcpa] auto-restart attempt 5/10 in 81s
+2026-02-22T16:22:52.944Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:22:53.155Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:23:20.800Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:25:57.771Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:25:57.882Z [telegram] [zakcpa] starting provider
+2026-02-22T16:25:58.371Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:25:59.175Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:25:59.408Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:25:59.563Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:25:59.744Z [telegram] [zakcpa] auto-restart attempt 6/10 in 173s
+2026-02-22T16:25:59.906Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:26:28.176Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:29:05.688Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T16:29:08.072Z [telegram] [zakcpa] starting provider
+2026-02-22T16:29:08.187Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:29:08.464Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:29:09.358Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:29:09.725Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:29:09.946Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:29:10.091Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T16:29:10.249Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:29:38.615Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:32:11.865Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:32:42.288Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:35:20.548Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T16:35:23.042Z [telegram] [zakcpa] starting provider
+2026-02-22T16:35:23.192Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:35:23.699Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:35:24.514Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:35:24.730Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:35:24.846Z [telegram] [zakcpa] auto-restart attempt 8/10 in 300s
+2026-02-22T16:35:24.980Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:35:25.207Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:35:53.613Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:38:28.797Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:38:59.195Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:41:36.688Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T16:41:39.054Z [telegram] [zakcpa] starting provider
+2026-02-22T16:41:39.192Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:41:39.517Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:41:40.366Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:41:40.899Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:41:41.063Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:41:41.216Z [telegram] [zakcpa] auto-restart attempt 9/10 in 300s
+2026-02-22T16:41:41.363Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:42:09.582Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:44:44.840Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:45:15.260Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:47:52.662Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T16:47:56.997Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:47:58.544Z [telegram] [zakcpa] starting provider
+2026-02-22T16:47:58.870Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:47:59.690Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:47:59.928Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:00.074Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:48:00.202Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T16:48:00.324Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:08.316Z [telegram] [zakcpa] starting provider
+2026-02-22T16:48:08.590Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:48:09.311Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:48:09.521Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:09.829Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:48:09.959Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T16:48:10.073Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:23.450Z [telegram] [zakcpa] starting provider
+2026-02-22T16:48:23.721Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:48:24.445Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:48:24.662Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:24.972Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:48:25.097Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T16:48:25.217Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:27.203Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:48:48.241Z [telegram] [zakcpa] starting provider
+2026-02-22T16:48:48.861Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:48:50.218Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:48:50.485Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:50.957Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:48:51.128Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:48:51.266Z [telegram] [zakcpa] auto-restart attempt 4/10 in 41s
+2026-02-22T16:51:05.866Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:51:06.059Z [telegram] [zakcpa] starting provider
+2026-02-22T16:51:06.515Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:51:07.420Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:51:07.809Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:51:07.959Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:51:08.073Z [telegram] [zakcpa] auto-restart attempt 5/10 in 83s
+2026-02-22T16:51:08.207Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:51:36.302Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:54:15.831Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:54:15.992Z [telegram] [zakcpa] starting provider
+2026-02-22T16:54:16.297Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:54:17.005Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:54:17.207Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:54:17.341Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:54:17.472Z [telegram] [zakcpa] auto-restart attempt 6/10 in 169s
+2026-02-22T16:54:17.592Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:54:46.216Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:57:30.270Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T16:57:30.409Z [telegram] [zakcpa] starting provider
+2026-02-22T16:57:30.716Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T16:57:31.437Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T16:57:31.762Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T16:57:31.943Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T16:57:32.087Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:57:32.346Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T16:58:00.714Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:00:50.334Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T17:00:53.355Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:01:23.749Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:04:01.191Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:04:01.319Z [telegram] [zakcpa] starting provider
+2026-02-22T17:04:01.766Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:04:02.514Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:04:02.766Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:04:02.905Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T17:04:03.092Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:03.368Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:10.440Z [telegram] [zakcpa] starting provider
+2026-02-22T17:04:10.880Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:04:11.655Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:04:11.883Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:12.232Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:04:12.362Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T17:04:12.519Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:25.111Z [telegram] [zakcpa] starting provider
+2026-02-22T17:04:25.371Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:04:26.046Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:04:26.373Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:26.777Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:26.887Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:04:27.020Z [telegram] [zakcpa] auto-restart attempt 3/10 in 22s
+2026-02-22T17:04:31.598Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:04:52.653Z [telegram] [zakcpa] starting provider
+2026-02-22T17:04:52.949Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:04:53.652Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:04:53.861Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:04:54.187Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:04:54.303Z [telegram] [zakcpa] auto-restart attempt 4/10 in 41s
+2026-02-22T17:04:54.433Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:07:14.900Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:07:15.703Z [telegram] [zakcpa] starting provider
+2026-02-22T17:07:16.039Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:07:16.735Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:07:17.026Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:07:17.164Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:07:17.277Z [telegram] [zakcpa] auto-restart attempt 5/10 in 86s
+2026-02-22T17:07:17.398Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:07:45.322Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:10:24.155Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:10:24.274Z [telegram] [zakcpa] starting provider
+2026-02-22T17:10:24.749Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:10:25.475Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:10:25.683Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:10:25.825Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:10:25.941Z [telegram] [zakcpa] auto-restart attempt 6/10 in 174s
+2026-02-22T17:10:26.069Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:10:54.579Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:13:31.233Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T17:13:33.546Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:13:33.780Z [telegram] [zakcpa] starting provider
+2026-02-22T17:13:34.190Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:13:35.141Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:13:35.457Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:13:35.739Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:13:36.121Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:13:36.386Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T17:14:03.992Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:16:37.071Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:17:07.510Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:19:45.708Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T17:19:49.883Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:19:51.731Z [telegram] [zakcpa] starting provider
+2026-02-22T17:19:52.335Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:19:53.600Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:19:54.005Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:19:54.145Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T17:19:54.292Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:19:54.502Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:20:01.752Z [telegram] [zakcpa] starting provider
+2026-02-22T17:20:02.059Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:20:02.767Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:20:02.982Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:20:03.329Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:20:03.452Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T17:20:03.588Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:20:17.067Z [telegram] [zakcpa] starting provider
+2026-02-22T17:20:17.365Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:20:18.136Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:20:18.353Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:20:18.663Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:20:18.807Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T17:20:18.952Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:20:20.136Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:20:42.466Z [telegram] [zakcpa] starting provider
+2026-02-22T17:20:42.767Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:20:43.500Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:20:43.736Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:20:44.084Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:20:44.242Z [telegram] [zakcpa] auto-restart attempt 4/10 in 41s
+2026-02-22T17:20:44.391Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:22:58.810Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:22:58.941Z [telegram] [zakcpa] starting provider
+2026-02-22T17:22:59.252Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:22:59.970Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:23:00.387Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:23:00.522Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:23:00.634Z [telegram] [zakcpa] auto-restart attempt 5/10 in 87s
+2026-02-22T17:23:00.760Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:23:29.225Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:26:09.183Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:26:10.214Z [telegram] [zakcpa] starting provider
+2026-02-22T17:26:10.598Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:26:11.320Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:26:11.529Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:26:11.652Z [telegram] [zakcpa] auto-restart attempt 6/10 in 164s
+2026-02-22T17:26:11.785Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:26:12.004Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:26:39.623Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:29:17.553Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:29:17.688Z [telegram] [zakcpa] starting provider
+2026-02-22T17:29:18.144Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:29:18.861Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:29:19.071Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:29:19.202Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T17:29:19.333Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:29:19.557Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:29:47.933Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:32:26.582Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T17:32:27.107Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:32:57.582Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:35:36.411Z [telegram] [zakcpa] starting provider
+2026-02-22T17:35:36.644Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:35:37.172Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:35:38.368Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:35:38.864Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:35:39.175Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:35:39.464Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:35:39.635Z [telegram] [zakcpa] auto-restart attempt 8/10 in 300s
+2026-02-22T17:36:07.078Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:38:48.840Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T17:38:49.326Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:39:19.716Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:41:57.452Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:41:57.619Z [telegram] [zakcpa] starting provider
+2026-02-22T17:41:58.097Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:41:58.855Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:41:59.064Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:41:59.179Z [telegram] [zakcpa] auto-restart attempt 9/10 in 300s
+2026-02-22T17:41:59.303Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:41:59.523Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:42:27.847Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:45:05.496Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T17:45:05.908Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:45:36.370Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:48:14.516Z [telegram] [zakcpa] starting provider
+2026-02-22T17:48:14.666Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:48:15.041Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:48:15.765Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:48:16.098Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:48:16.244Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:48:16.392Z [telegram] [zakcpa] auto-restart attempt 10/10 in 300s
+2026-02-22T17:48:16.532Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:48:45.068Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:51:22.111Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: gave-up)
+2026-02-22T17:51:25.960Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:51:56.422Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:54:33.977Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:54:34.164Z [telegram] [zakcpa] starting provider
+2026-02-22T17:54:34.483Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:54:35.190Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:54:35.448Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:54:35.685Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:54:35.901Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:54:36.012Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T17:54:44.039Z [telegram] [zakcpa] starting provider
+2026-02-22T17:54:44.319Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:54:45.033Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:54:45.271Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:54:45.587Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:54:45.730Z [telegram] [zakcpa] auto-restart attempt 2/10 in 10s
+2026-02-22T17:54:46.014Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:54:59.313Z [telegram] [zakcpa] starting provider
+2026-02-22T17:54:59.644Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:55:00.428Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:55:00.777Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:55:01.201Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:55:01.354Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:55:01.490Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T17:55:04.180Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:55:26.522Z [telegram] [zakcpa] starting provider
+2026-02-22T17:55:26.924Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:55:27.710Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:55:27.930Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:55:28.247Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:55:28.380Z [telegram] [zakcpa] auto-restart attempt 4/10 in 40s
+2026-02-22T17:55:28.501Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:57:44.935Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T17:57:45.991Z [telegram] [zakcpa] starting provider
+2026-02-22T17:57:46.262Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T17:57:46.985Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T17:57:47.354Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:57:47.546Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T17:57:47.699Z [telegram] [zakcpa] auto-restart attempt 5/10 in 84s
+2026-02-22T17:57:47.857Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T17:58:15.328Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:00:52.506Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:00:52.636Z [telegram] [zakcpa] starting provider
+2026-02-22T18:00:52.970Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:00:53.825Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:00:54.130Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:00:54.463Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:00:54.704Z [telegram] [zakcpa] auto-restart attempt 6/10 in 162s
+2026-02-22T18:00:54.976Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:01:22.933Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:04:00.295Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T18:04:04.675Z [telegram] [zakcpa] starting provider
+2026-02-22T18:04:04.978Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:04:05.685Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:04:05.838Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:04:05.973Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:06.190Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:06.414Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:04:06.557Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T18:04:14.482Z [telegram] [zakcpa] starting provider
+2026-02-22T18:04:14.806Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:04:15.589Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:04:15.810Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:16.026Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:04:16.145Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T18:04:16.361Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:29.474Z [telegram] [zakcpa] starting provider
+2026-02-22T18:04:29.781Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:04:30.489Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:04:30.701Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:31.001Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:04:31.127Z [telegram] [zakcpa] auto-restart attempt 3/10 in 22s
+2026-02-22T18:04:31.353Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:36.221Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:04:56.627Z [telegram] [zakcpa] starting provider
+2026-02-22T18:04:57.282Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:04:58.197Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:04:58.403Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:04:58.717Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:04:58.833Z [telegram] [zakcpa] auto-restart attempt 4/10 in 40s
+2026-02-22T18:04:59.052Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:07:11.442Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:07:11.941Z [telegram] [zakcpa] starting provider
+2026-02-22T18:07:12.426Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:07:13.370Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:07:13.895Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:07:14.057Z [telegram] [zakcpa] auto-restart attempt 5/10 in 86s
+2026-02-22T18:07:14.214Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:07:14.494Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:07:41.661Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:10:22.402Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:10:23.617Z [telegram] [zakcpa] starting provider
+2026-02-22T18:10:23.889Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:10:24.561Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:10:24.822Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:10:24.990Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:10:25.307Z [telegram] [zakcpa] auto-restart attempt 6/10 in 161s
+2026-02-22T18:10:25.612Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:10:52.787Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:13:30.727Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:13:30.857Z [telegram] [zakcpa] starting provider
+2026-02-22T18:13:31.179Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:13:31.961Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:13:32.314Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:13:32.477Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T18:13:32.632Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:13:32.848Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:14:01.134Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:16:35.215Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T18:16:35.639Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:17:06.086Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:19:43.873Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:19:44.026Z [telegram] [zakcpa] starting provider
+2026-02-22T18:19:44.416Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:19:45.245Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:19:45.488Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:19:45.663Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:19:45.810Z [telegram] [zakcpa] auto-restart attempt 8/10 in 300s
+2026-02-22T18:19:45.938Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:20:14.280Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:22:51.760Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T18:22:54.141Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:23:24.536Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:26:02.127Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:26:02.254Z [telegram] [zakcpa] starting provider
+2026-02-22T18:26:02.587Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:26:03.325Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:26:03.530Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:03.664Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:26:03.794Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T18:26:03.911Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:11.669Z [telegram] [zakcpa] starting provider
+2026-02-22T18:26:11.988Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:26:12.803Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:26:13.104Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:13.354Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:26:13.489Z [telegram] [zakcpa] auto-restart attempt 2/10 in 10s
+2026-02-22T18:26:13.932Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:26.590Z [telegram] [zakcpa] starting provider
+2026-02-22T18:26:27.247Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:26:28.654Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:26:29.324Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:29.843Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:26:29.970Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T18:26:30.113Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:32.332Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:26:53.248Z [telegram] [zakcpa] starting provider
+2026-02-22T18:26:53.616Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:26:54.342Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:26:54.577Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:26:54.916Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:26:55.044Z [telegram] [zakcpa] auto-restart attempt 4/10 in 41s
+2026-02-22T18:26:55.375Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:29:12.712Z [telegram] [zakcpa] starting provider
+2026-02-22T18:29:12.873Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:29:13.233Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:29:14.036Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:29:14.510Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:29:14.659Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:29:14.820Z [telegram] [zakcpa] auto-restart attempt 5/10 in 84s
+2026-02-22T18:29:14.959Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:29:43.352Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:32:20.495Z [telegram] [zakcpa] starting provider
+2026-02-22T18:32:20.644Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:32:21.057Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:32:22.165Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:32:22.632Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:32:22.765Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:32:22.893Z [telegram] [zakcpa] auto-restart attempt 6/10 in 169s
+2026-02-22T18:32:23.019Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:32:51.106Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:35:29.607Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T18:35:32.455Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:35:32.612Z [telegram] [zakcpa] starting provider
+2026-02-22T18:35:32.907Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:35:33.619Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:35:33.825Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:35:33.952Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T18:35:34.093Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:35:34.309Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:36:02.899Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:38:36.406Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:39:06.829Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:41:44.236Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T18:41:47.068Z [telegram] [zakcpa] starting provider
+2026-02-22T18:41:47.258Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:41:47.695Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:41:48.697Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:41:48.903Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:41:49.057Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:41:49.175Z [telegram] [zakcpa] auto-restart attempt 8/10 in 300s
+2026-02-22T18:41:49.343Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:42:17.751Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:44:53.017Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:45:23.445Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:48:02.628Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T18:48:05.053Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:48:05.187Z [telegram] [zakcpa] starting provider
+2026-02-22T18:48:05.474Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:48:06.208Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:48:06.422Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:48:06.550Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:48:06.680Z [telegram] [zakcpa] auto-restart attempt 9/10 in 300s
+2026-02-22T18:48:06.812Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:48:35.479Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:51:10.513Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:51:40.961Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:54:18.733Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T18:54:23.318Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:54:24.652Z [telegram] [zakcpa] starting provider
+2026-02-22T18:54:24.935Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:54:25.656Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:54:25.864Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:54:25.987Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:54:26.103Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T18:54:26.243Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:54:34.282Z [telegram] [zakcpa] starting provider
+2026-02-22T18:54:34.541Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:54:35.259Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:54:35.469Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:54:35.779Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:54:35.903Z [telegram] [zakcpa] auto-restart attempt 2/10 in 10s
+2026-02-22T18:54:36.122Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:54:48.942Z [telegram] [zakcpa] starting provider
+2026-02-22T18:54:49.252Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:54:50.072Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:54:50.286Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:54:50.615Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:54:50.731Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T18:54:50.876Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:54:53.555Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:55:14.239Z [telegram] [zakcpa] starting provider
+2026-02-22T18:55:14.559Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:55:15.429Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:55:15.840Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:55:16.278Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:55:16.407Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:55:16.527Z [telegram] [zakcpa] auto-restart attempt 4/10 in 42s
+2026-02-22T18:57:32.531Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T18:57:32.711Z [telegram] [zakcpa] starting provider
+2026-02-22T18:57:33.119Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T18:57:33.888Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T18:57:34.226Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:57:34.364Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T18:57:34.486Z [telegram] [zakcpa] auto-restart attempt 5/10 in 82s
+2026-02-22T18:57:34.602Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T18:58:02.988Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:00:43.182Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:00:44.413Z [telegram] [zakcpa] starting provider
+2026-02-22T19:00:44.730Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:00:45.519Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:00:45.771Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:00:45.957Z [telegram] [zakcpa] auto-restart attempt 6/10 in 174s
+2026-02-22T19:00:46.128Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:00:46.460Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:01:13.617Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:03:51.452Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:03:51.559Z [telegram] [zakcpa] starting provider
+2026-02-22T19:03:51.844Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:03:52.557Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:03:52.915Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:03:53.080Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T19:03:53.256Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:03:53.545Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:04:21.849Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:06:57.540Z [health-monitor] [telegram:zakcpa] health-monitor: restarting (reason: stopped)
+2026-02-22T19:07:00.312Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:07:30.949Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:10:09.797Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:10:09.937Z [telegram] [zakcpa] starting provider
+2026-02-22T19:10:10.272Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:10:11.209Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:10:11.534Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:10:11.664Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:10:11.789Z [telegram] [zakcpa] auto-restart attempt 1/10 in 5s
+2026-02-22T19:10:11.919Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:10:19.976Z [telegram] [zakcpa] starting provider
+2026-02-22T19:10:20.347Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:10:21.202Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:10:21.502Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:10:21.985Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:10:22.160Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:10:22.349Z [telegram] [zakcpa] auto-restart attempt 2/10 in 11s
+2026-02-22T19:10:35.819Z [telegram] [zakcpa] starting provider
+2026-02-22T19:10:36.121Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:10:36.914Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:10:37.128Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:10:37.487Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:10:37.640Z [telegram] [zakcpa] auto-restart attempt 3/10 in 21s
+2026-02-22T19:10:37.809Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:10:40.033Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:11:00.720Z [telegram] [zakcpa] starting provider
+2026-02-22T19:11:01.297Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:11:02.851Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:11:03.277Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:11:03.724Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:11:03.886Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:11:04.038Z [telegram] [zakcpa] auto-restart attempt 4/10 in 42s
+2026-02-22T19:13:19.614Z [ws] closed before connect conn=eb07863d-792b-41b4-84df-dfbc741282be remote=127.0.0.1 fwd=n/a origin=n/a host=127.0.0.1:18789 ua=n/a code=1006 reason=n/a
+2026-02-22T19:13:24.647Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:13:24.795Z [telegram] [zakcpa] starting provider
+2026-02-22T19:13:25.116Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:13:25.976Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:13:26.340Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:13:26.495Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:13:26.630Z [telegram] [zakcpa] auto-restart attempt 5/10 in 86s
+2026-02-22T19:13:26.753Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:13:55.044Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:16:52.394Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:16:52.612Z [telegram] [zakcpa] starting provider
+2026-02-22T19:16:53.150Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:16:54.065Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:16:54.408Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:16:54.549Z [telegram] [zakcpa] auto-restart attempt 6/10 in 161s
+2026-02-22T19:16:54.679Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:16:54.906Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:17:22.912Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:20:00.865Z [health-monitor] [telegram:zakcpa] health-monitor: hit 3 restarts/hour limit, skipping
+2026-02-22T19:20:05.721Z [telegram] [zakcpa] starting provider
+2026-02-22T19:20:06.147Z [skills] root looks suspiciously large, truncating discovery.
+2026-02-22T19:20:07.068Z [telegram] limits bots to 80 commands. 223 configured; registering first 80. Use channels.telegram.commands.native: false to disable, or reduce plugin/skill/custom commands.
+2026-02-22T19:20:07.241Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-02-22T19:20:07.500Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:20:07.762Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (401: Unauthorized)
+2026-02-22T19:20:08.135Z [telegram] [zakcpa] channel exited: Call to 'getMe' failed! (401: Unauthorized)
+2026-02-22T19:20:08.266Z [telegram] [zakcpa] auto-restart attempt 7/10 in 300s
+2026-02-22T19:20:37.662Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
