@@ -1,0 +1,53 @@
+la traitement des garanties comme une obligation de prestation distincte est totalement la meme dans le cadre des deux référentiels 
+soit NCECF: composante distincte on doit répartir le prix de transaction sur les composantes distinctes par contre si est une obligation légale on doit faire une provision 
+IFRS: garantie légale on doit faire une provision par contre une garantie non légale soit une obligation de prestation distincte on le comptabilise séparément
+donc le nerf de guerre est que c'est légale ou bien non  
+pour les NCECF on trouve les garantie légale dans le chapitre 3290 Éventualités 
+
+Attention dans les NCECF y'a pas un paragraphe qui parle des garanties légales contrairement aux IFRS 
+
+Pour les immobilisation incorporelle générer en interne pour les deux référentiel cherche directement les frais de recherche et développement et commence votre analyse 
+La règle d'or c'est que la date ou la faisabilité technique d'achèvement est prouvé on commence la capitalisation a partir de cette date attention pour les reflexes dans 
+un cas il disent que la faisabilité technique est prouvé a partir de décembre par exemple donc toute les dépenses meme celle de mois de décembre en cours seront des frais de 
+recherche donc post décembre qu'on commence a capitaliser 
+
+VNR: C'est le montant que s'attend l'entité a réaliser suite a la vente d'un actif est vraiment lié a l'entité donc prix de vente moins les cout liés pour réaliser cette vente 
+
+Attention au date pour les correction d'erreur et les événement apres la date de cloture 
+
+Lors de votre analyse lis bien la demande de clients des fois les ajustement font un impact sur les ÉF ou bien sur les clauses restrictives donc tu dois parler de cette impact de 
+régularisation 
+
+Évaluation: Prospective 
+Correction d'erreur: Retrospective 
+Changement de méthodes comptables: Retrospective 
+Période de cloture ne sont pas encore publiés les EF donc attention au RN ou RND 
+Attention la publication des EF sont affiché déclare la fin de la période de cloture ici on touche plus au RN mais on va toucher au RND 
+C'est la direction qui est responsable de publication des EF 
+
+Dans le cas de l'Acquisition d'une filiale n'est pas détenue a 100% on doit présenter le goodwill a 100% avec l'extrapolation de de prix d'achat a 100% 
+par contre on doit comptabiliser la part des actionnaire sans contrôle dans les capitaux propres tous le reste se présente a 100% dans les ÉF consolidé 
+par contre lorsque on arrive au résultat on prends seulement la quot part de la mere 
+
+Dans le cas de franchise pas de relation ami tout est traiter selon la norme IFRS15 ou bien le chapitre 3400 
+
+Le chapitre placement soit 3051 parle des satellite soit des placement avec une influence notable 
+
+3056 intérêts dans des partenariat ici on parle des participation avec contrôle conjoint 
+
+Pas d'actualisation dans le cas de traitement de franchise il veut mieux la faire le chapitre correspondant que de la faire le chapitre 3400 
+
+Pour les subventions gouvernementale on doit se référer a la partie de pertinence de chapitre 3800 des NCECF de la comptabilité d'exercice afin de statuer sur la comptabilisation de la subvention 
+
+Durée de vie et durée de vie utile sont deux concepts a bien métriser 
+Si y'a une option d'achat au prix de faveur dans un contrat de location aquisition on ammorti le bien sur la durée économique de bien si il y'a pas une option d'achat on l'ammortie sur la durré de bail 
+
+Opération non monétaire on parle jamais de compte de vente 
+
+Attention pour le taux de change dans le cas de VNR il faut utiliser le taux de cloture 
+
+les instrumentes financier généralement correspond aux montant reçu ou bien verser en trésorerie dans le cadre d'une opération en pleine concurrence 
+Attention a la notion de marché voir bourse lorsque on évalue initialement les AF pour les NCECF attention aux choix par rapport aux NCECF 
+
+Habituellement les ICP d'une autre entité se classe initialement a JVBRN sauf dans des cas exceptionnels (choix irrévocable JVBARG) 
+

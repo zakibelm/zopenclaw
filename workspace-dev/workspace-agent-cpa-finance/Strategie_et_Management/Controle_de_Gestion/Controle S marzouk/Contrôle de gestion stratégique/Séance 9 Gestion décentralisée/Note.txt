@@ -1,0 +1,29 @@
+Les expressions « niveau d’activité » et « niveau d’inducteur de coûts » sont utilisées de
+façon interchangeable pour l’estimation des fonctions de coût
+
+Existence d'une relation de cause a effet entre  le niveau d'activité et les couts a ce niveau d'Activité (pense au nombre de pompiers et les incendies) :probable, improbable ,forte
+
+MCV Unitaire/Facteur contraignant unitaire 
+
+PCI minimum = CV  engagés jusqu'au moment de la cession +   Coût d'opportunité pour la division vendeuse
+       
+Cout d'option=Cout d'opportunité=cout de renonciation  (marge sur le cout variable dont le vendeur renonce) 
+
+ Les PCI fondés sur les coûts sont établis à partir d'une formule appliquée à un indicateur quelconque du coût du produit.
+
+•	Si le PCI est fondé sur le coût complet, il correspondra au coût complet du produit cédé, auquel on ajoutera une majoration *(Marge en %)
+
+•	Si le PCI est fondé sur les CV, il correspondra aux CV du produit cédé, auquel on ajoutera une majoration *(marge en %)   -20MN
+
+manque de convergence des efforts (ou manque de convergence des objectifs).
+
+Le cout fixes dans le cadre de détermination de PCI n'est pas pertinent car la division vendeuse elle les paient si il vend en interne ou bien ou externe c'est frais sont payés quelque soit
+les conditions 
+
+les frais de ventes sur les produits baissent le cout d'opportunité 
+Généralement le cout d'opportunité correspond a la MCV 
+
+Le cout différentiel et le produit différentiels sont liés a une option ou une commande supplémentaires (différentiel =supplémentaires) 
+
+Dans les examens on se concentre seulement le PCI négocié 
+

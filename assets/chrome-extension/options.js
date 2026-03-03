@@ -1,17 +1,4 @@
-const DEFAULT_PORT = 18792
-
-function clampPort(value) {
-  const n = Number.parseInt(String(value || ''), 10)
-  if (!Number.isFinite(n)) return DEFAULT_PORT
-  if (n <= 0 || n > 65535) return DEFAULT_PORT
-  return n
-}
-
-function updateRelayUrl(port) {
-  const el = document.getElementById('relay-url')
-  if (!el) return
-  el.textContent = `http://127.0.0.1:${port}/`
-}
+const DEFAULT_RELAY_URL = 'http://127.0.0.1:18791/'
 
 function setStatus(kind, message) {
   const status = document.getElementById('status')
@@ -20,18 +7,18 @@ function setStatus(kind, message) {
   status.textContent = message || ''
 }
 
-async function checkRelayReachable(port) {
-  const url = `http://127.0.0.1:${port}/`
+async function checkRelayReachable(url) {
+  const checkUrl = url.replace(/\/$/, '') + '/'
   const ctrl = new AbortController()
-  const t = setTimeout(() => ctrl.abort(), 900)
+  const t = setTimeout(() => ctrl.abort(), 2000)
   try {
-    const res = await fetch(url, { method: 'HEAD', signal: ctrl.signal })
+    const res = await fetch(checkUrl, { method: 'HEAD', signal: ctrl.signal })
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    setStatus('ok', `Relay reachable at ${url}`)
-  } catch {
+    setStatus('ok', `Relay reachable at ${checkUrl}`)
+  } catch (err) {
     setStatus(
       'error',
-      `Relay not reachable at ${url}. Start OpenClaw’s browser relay on this machine, then click the toolbar button again.`,
+      `Relay not reachable at ${checkUrl}. Error: ${String(err)}`,
     )
   } finally {
     clearTimeout(t)
@@ -39,20 +26,18 @@ async function checkRelayReachable(port) {
 }
 
 async function load() {
-  const stored = await chrome.storage.local.get(['relayPort'])
-  const port = clampPort(stored.relayPort)
-  document.getElementById('port').value = String(port)
-  updateRelayUrl(port)
-  await checkRelayReachable(port)
+  const stored = await chrome.storage.local.get(['relayUrl'])
+  const url = (stored.relayUrl || DEFAULT_RELAY_URL).trim()
+  document.getElementById('relay-url-input').value = url
+  await checkRelayReachable(url)
 }
 
 async function save() {
-  const input = document.getElementById('port')
-  const port = clampPort(input.value)
-  await chrome.storage.local.set({ relayPort: port })
-  input.value = String(port)
-  updateRelayUrl(port)
-  await checkRelayReachable(port)
+  const input = document.getElementById('relay-url-input')
+  const url = input.value.trim() || DEFAULT_RELAY_URL
+  await chrome.storage.local.set({ relayUrl: url })
+  input.value = url
+  await checkRelayReachable(url)
 }
 
 document.getElementById('save').addEventListener('click', () => void save())

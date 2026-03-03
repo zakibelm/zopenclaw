@@ -89,6 +89,11 @@
         gap: 8px;
         flex-wrap: wrap;
       }
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
       label {
         display: block;
         font-size: 12px;
@@ -176,15 +181,15 @@
         </div>
 
         <div class="card">
-          <h2>Relay port</h2>
-          <label for="port">Port</label>
-          <div class="row">
-            <input id="port" inputmode="numeric" pattern="[0-9]*" />
-            <button id="save" type="button">Save</button>
+          <h2>Relay settings</h2>
+          <div class="input-group">
+            <label for="relay-url-input">Relay URL</label>
+            <input type="text" id="relay-url-input" placeholder="http://127.0.0.1:18791/" style="width: 100%;" />
+            <button id="save" type="button" style="margin-top: 20px;">Save</button>
           </div>
           <div class="hint">
-            Default: <code>18792</code>. Extension connects to: <code id="relay-url">http://127.0.0.1:&lt;port&gt;/</code>.
-            Only change this if your OpenClaw profile uses a different <code>cdpUrl</code> port.
+            Default: <code>http://127.0.0.1:18791/</code>.
+            For your remote VPS, use: <code>https://api.optigenius.pro:18792/relay/</code>
           </div>
           <div class="status" id="status"></div>
         </div>

@@ -1,0 +1,12 @@
+Évaluer les actifs et les passifs excédentaires (superflus) a la JVM 
+
+VAN = Σ (FTt / (1+T)t ) - JV des dettes + JV des actifs excédentaires  
+où FTt = flux de trésorerie d’exploitation (avant intérêts) au temps t 
+T = taux d'actualisation estimé par le coût du capital 
+JV = juste valeur 
+Éléments hors bilan (good-will,marque de commerce,achalandage,cautionnment accordés,litiges en cours,contrat a terme) 
+Attention au facteur hors bilan comme un facteur qualitatif dans votre analyse 
+La valeur a long terme de l'entreprise(Action)
+la valeur a cout terme de l'entreprise(Actifs)
+Etat de résultat global provisional dans le but de préparer un budget de caisse 
+puis a partir de compte de résultat on établi le EF et aussi le TFT 

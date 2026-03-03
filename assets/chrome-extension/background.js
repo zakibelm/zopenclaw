@@ -1,4 +1,4 @@
-const DEFAULT_PORT = 18792
+const DEFAULT_RELAY_URL = 'http://127.0.0.1:18791/'
 
 const BADGE = {
   on: { text: 'ON', color: '#FF5A36' },
@@ -34,12 +34,9 @@ function nowStack() {
   }
 }
 
-async function getRelayPort() {
-  const stored = await chrome.storage.local.get(['relayPort'])
-  const raw = stored.relayPort
-  const n = Number.parseInt(String(raw || ''), 10)
-  if (!Number.isFinite(n) || n <= 0 || n > 65535) return DEFAULT_PORT
-  return n
+async function getRelayUrl() {
+  const stored = await chrome.storage.local.get(['relayUrl'])
+  return (stored.relayUrl || DEFAULT_RELAY_URL).trim() || DEFAULT_RELAY_URL
 }
 
 function setBadge(tabId, kind) {
@@ -54,9 +51,9 @@ async function ensureRelayConnection() {
   if (relayConnectPromise) return await relayConnectPromise
 
   relayConnectPromise = (async () => {
-    const port = await getRelayPort()
-    const httpBase = `http://127.0.0.1:${port}`
-    const wsUrl = `ws://127.0.0.1:${port}/extension`
+    const relayUrl = (await getRelayUrl()).replace(/\/$/, '') + '/'
+    const wsUrl = relayUrl.replace(/^http/, 'ws') + 'extension'
+    const httpBase = relayUrl.replace(/\/$/, '')
 
     // Fast preflight: is the relay server up?
     try {
@@ -297,7 +294,7 @@ async function connectOrToggleForActiveTab() {
   setBadge(tabId, 'connecting')
   void chrome.action.setTitle({
     tabId,
-    title: 'OpenClaw Browser Relay: connecting to local relay…',
+    title: 'OpenClaw Browser Relay: connecting…',
   })
 
   try {

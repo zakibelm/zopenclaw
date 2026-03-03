@@ -86,3 +86,7 @@ USER.md
 !.agent/workflows/
 /local/
 package-lock.json
+
+# Large files exceeding GitHub limits
+workspace-dev/workspace-agent-cpa-finance/*.pdf.embedded.json
+workspace-dev/workspace-agent-cpa-finance/*.pptx
